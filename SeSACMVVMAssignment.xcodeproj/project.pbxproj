@@ -23,6 +23,14 @@
 		DF765CCD2B879D8D00E52A0E /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF765CCC2B879D8D00E52A0E /* UITextField+Extension.swift */; };
 		DF765CCF2B879E5600E52A0E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF765CCE2B879E5600E52A0E /* SignUpViewController.swift */; };
 		DF765CD12B87A8A900E52A0E /* SignUpobservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF765CD02B87A8A900E52A0E /* SignUpobservable.swift */; };
+		DF8366752B8881E400B23299 /* Week2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8366742B8881E400B23299 /* Week2ViewController.swift */; };
+		DF8366772B8881F800B23299 /* Week2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8366762B8881F800B23299 /* Week2View.swift */; };
+		DF83667A2B88821100B23299 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8366792B88821100B23299 /* BaseView.swift */; };
+		DF83667C2B88828300B23299 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF83667B2B88828300B23299 /* BaseViewController.swift */; };
+		DF83667E2B88867E00B23299 /* Week2ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF83667D2B88867E00B23299 /* Week2ModelView.swift */; };
+		DF8366802B8886A100B23299 /* Week2Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF83667F2B8886A100B23299 /* Week2Observable.swift */; };
+		DF8366832B88BA1700B23299 /* Week2JackFlexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8366822B88BA1700B23299 /* Week2JackFlexView.swift */; };
+		DF8366852B88BA2600B23299 /* Week2JackFlexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8366842B88BA2600B23299 /* Week2JackFlexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +50,14 @@
 		DF765CCC2B879D8D00E52A0E /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		DF765CCE2B879E5600E52A0E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		DF765CD02B87A8A900E52A0E /* SignUpobservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpobservable.swift; sourceTree = "<group>"; };
+		DF8366742B8881E400B23299 /* Week2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2ViewController.swift; sourceTree = "<group>"; };
+		DF8366762B8881F800B23299 /* Week2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2View.swift; sourceTree = "<group>"; };
+		DF8366792B88821100B23299 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		DF83667B2B88828300B23299 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DF83667D2B88867E00B23299 /* Week2ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2ModelView.swift; sourceTree = "<group>"; };
+		DF83667F2B8886A100B23299 /* Week2Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2Observable.swift; sourceTree = "<group>"; };
+		DF8366822B88BA1700B23299 /* Week2JackFlexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2JackFlexView.swift; sourceTree = "<group>"; };
+		DF8366842B88BA2600B23299 /* Week2JackFlexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2JackFlexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,16 +92,17 @@
 		DF765CA42B87478E00E52A0E /* SeSACMVVMAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				DF8366812B88B9E900B23299 /* Week2Jack */,
+				DF8366782B88820300B23299 /* Base */,
+				DF8366732B8881C600B23299 /* Week2 */,
+				DF8366722B8881AF00B23299 /* Week1 */,
 				DF765CBD2B87995300E52A0E /* SignUp */,
 				DF765CA52B87478E00E52A0E /* AppDelegate.swift */,
 				DF765CA72B87478E00E52A0E /* SceneDelegate.swift */,
-				DF765CA92B87478E00E52A0E /* ViewController.swift */,
 				DF765CAB2B87478E00E52A0E /* Main.storyboard */,
 				DF765CAE2B87479000E52A0E /* Assets.xcassets */,
 				DF765CB02B87479000E52A0E /* LaunchScreen.storyboard */,
 				DF765CB32B87479000E52A0E /* Info.plist */,
-				DF765CB92B87480800E52A0E /* Observable.swift */,
-				DF765CBB2B874C4500E52A0E /* ModelView.swift */,
 			);
 			path = SeSACMVVMAssignment;
 			sourceTree = "<group>";
@@ -101,6 +118,45 @@
 				DF765CD02B87A8A900E52A0E /* SignUpobservable.swift */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		DF8366722B8881AF00B23299 /* Week1 */ = {
+			isa = PBXGroup;
+			children = (
+				DF765CB92B87480800E52A0E /* Observable.swift */,
+				DF765CBB2B874C4500E52A0E /* ModelView.swift */,
+				DF765CA92B87478E00E52A0E /* ViewController.swift */,
+			);
+			path = Week1;
+			sourceTree = "<group>";
+		};
+		DF8366732B8881C600B23299 /* Week2 */ = {
+			isa = PBXGroup;
+			children = (
+				DF8366762B8881F800B23299 /* Week2View.swift */,
+				DF8366742B8881E400B23299 /* Week2ViewController.swift */,
+				DF83667D2B88867E00B23299 /* Week2ModelView.swift */,
+				DF83667F2B8886A100B23299 /* Week2Observable.swift */,
+			);
+			path = Week2;
+			sourceTree = "<group>";
+		};
+		DF8366782B88820300B23299 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DF8366792B88821100B23299 /* BaseView.swift */,
+				DF83667B2B88828300B23299 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DF8366812B88B9E900B23299 /* Week2Jack */ = {
+			isa = PBXGroup;
+			children = (
+				DF8366822B88BA1700B23299 /* Week2JackFlexView.swift */,
+				DF8366842B88BA2600B23299 /* Week2JackFlexViewController.swift */,
+			);
+			path = Week2Jack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,15 +238,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8366802B8886A100B23299 /* Week2Observable.swift in Sources */,
+				DF8366832B88BA1700B23299 /* Week2JackFlexView.swift in Sources */,
 				DF765CD12B87A8A900E52A0E /* SignUpobservable.swift in Sources */,
+				DF8366752B8881E400B23299 /* Week2ViewController.swift in Sources */,
+				DF8366772B8881F800B23299 /* Week2View.swift in Sources */,
 				DF765CBA2B87480800E52A0E /* Observable.swift in Sources */,
 				DF765CC32B8799B700E52A0E /* SignUpModelView.swift in Sources */,
+				DF83667C2B88828300B23299 /* BaseViewController.swift in Sources */,
 				DF765CAA2B87478E00E52A0E /* ViewController.swift in Sources */,
 				DF765CA62B87478E00E52A0E /* AppDelegate.swift in Sources */,
 				DF765CCF2B879E5600E52A0E /* SignUpViewController.swift in Sources */,
+				DF83667E2B88867E00B23299 /* Week2ModelView.swift in Sources */,
 				DF765CCD2B879D8D00E52A0E /* UITextField+Extension.swift in Sources */,
 				DF765CA82B87478E00E52A0E /* SceneDelegate.swift in Sources */,
 				DF765CCB2B879C2000E52A0E /* JackTableViewCell.swift in Sources */,
+				DF8366852B88BA2600B23299 /* Week2JackFlexViewController.swift in Sources */,
+				DF83667A2B88821100B23299 /* BaseView.swift in Sources */,
 				DF765CBF2B87997700E52A0E /* SignUpView.swift in Sources */,
 				DF765CBC2B874C4500E52A0E /* ModelView.swift in Sources */,
 			);

@@ -20,17 +20,18 @@ class SignUpModelView {
     }
     
     func checkValue(type: TextFieldType, text: String) -> String {
-        switch type {
-        case .email:
-            <#code#>
-        case .pw:
-            <#code#>
-        case .nickname:
-            <#code#>
-        case .location:
-            <#code#>
-        case .recommend:
-            <#code#>
-        }
+//        switch type {
+//        case .email:
+//            <#code#>
+//        case .pw:
+//            <#code#>
+//        case .nickname:
+//            <#code#>
+//        case .location:
+//            <#code#>
+//        case .recommend:
+//            <#code#>
+//        }
+        return ""
     }
 }

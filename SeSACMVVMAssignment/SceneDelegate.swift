@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(windowScene: windowScene)
         
-        let rootVC = SignUpViewController()
+        let rootVC = Week2ViewController()
         
         window?.rootViewController = rootVC
         
