@@ -20,9 +20,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(windowScene: windowScene)
         
-        let rootVC = Week2ViewController()
+        let rootVC = NetworkViewController()
         
-        window?.rootViewController = rootVC
+        let nav = UINavigationController(rootViewController: rootVC)
+        
+        window?.rootViewController = nav
         
         window?.makeKeyAndVisible()
     }
